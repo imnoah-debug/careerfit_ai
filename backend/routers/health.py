@@ -23,3 +23,4 @@ def health_check():
         "message": "CareerFit AI 서버가 정상 동작 중입니다."
 
     }
+

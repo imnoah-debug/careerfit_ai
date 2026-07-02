@@ -56,3 +56,5 @@ def analyze_career(request: AnalyzeRequest):
         answer=mock_answer,
         sources=mock_sources
     )
+
+    
