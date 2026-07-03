@@ -1,0 +1,4 @@
+company,title,required_skills,preferred_skills,description,job_type,deadline
+한빛데이터솔루션,데이터 분석가,"Python, SQL, Excel","Tableau, Power BI","서비스 데이터를 분석하여 비즈니스 의사결정을 지원합니다.",데이터분석,2026-08-31
+대한인사이트랩,BI 데이터 분석가,"SQL, Python, 통계분석","Power BI, ETL","KPI 분석 및 대시보드 구축을 담당합니다.",데이터분석,2026-09-15
+미래애널리틱스,제조 데이터 분석가,"Python, SQL, 통계분석","머신러닝, 품질관리","제조 공정 데이터를 분석하여 품질 개선을 지원합니다.",데이터분석,채용시 마감

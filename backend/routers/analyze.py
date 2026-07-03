@@ -3,6 +3,8 @@
 from fastapi import APIRouter
 from pydantic import BaseModel
 from typing import List, Literal
+from services.llm_service import get_llm_response 
+# < 추가
 
 router = APIRouter()
 
@@ -24,24 +26,27 @@ class AnalyzeResponse(BaseModel):
     answer: str             # AI 분석 결과 텍스트
     sources: List[dict]     # 답변 근거 데이터 목록
 
-
 @router.post("/analyze", response_model=AnalyzeResponse, tags=["Analyze"])
 def analyze_career(request: AnalyzeRequest):
     """
     사용자의 전공·스킬·관심 직무를 기반으로
     취업·공모전 맞춤 분석을 제공한다.
 
-    현재는 목업 응답을 반환하며,
-    실습 8에서 Gemini API와 연결한다.
+    MOCK_MODE=true이면 목업 응답을 반환하고,
+    MOCK_MODE=false이면 Gemini API 응답을 반환한다.
     """
 
-    # 임시 목업 응답: 실습 8에서 실제 Gemini + RAG 응답으로 교체한다
-    mock_answer = (
+    # Gemini 또는 목업 응답에 전달할 사용자 질문
+    query = (
         f"{request.major} 학생으로서 {request.job_type} 직무에 지원하려면, "
-        f"현재 보유하신 {', '.join(request.skills)} 역량을 바탕으로 "
-        f"다음과 같은 준비를 추천드립니다. "
-        f"(목업 응답 — 실습 8에서 Gemini로 교체)"
+        f"현재 보유한 {', '.join(request.skills)} 역량을 바탕으로 "
+        f"어떤 준비가 필요한지 분석해줘. "
+        f"경력은 {request.experience_years}년이고, "
+        f"선호 기업 규모는 {request.preferred_company_size}이야."
     )
+
+    # MOCK_MODE 값에 따라 llm_service.py에서 목업 또는 Gemini 응답 반환
+    result = get_llm_response(query, context_docs=[])
 
     # 답변의 근거가 되는 임시 목업 데이터
     mock_sources = [
@@ -52,9 +57,8 @@ def analyze_career(request: AnalyzeRequest):
     ]
 
     # 정해둔 응답 형식에 맞춰 반환
+     # 정해둔 응답 형식에 맞춰 반환
     return AnalyzeResponse(
-        answer=mock_answer,
-        sources=mock_sources
+        answer=result["answer"],
+        sources=result["sources"]
     )
-
-    
