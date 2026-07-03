@@ -2,55 +2,55 @@
 
 ## 1일차
 
-- [ ] careerfit_ai/ 폴더 구조 생성 완료
+- [x] careerfit_ai/ 폴더 구조 생성 완료
 
-- [ ] .gitignore에 .env 포함 확인
+- [x] .gitignore에 .env 포함 확인
 
-- [ ] .env.example 파일 생성 완료
+- [x] .env.example 파일 생성 완료
 
-- [ ] .cursor/rules/project-rules.mdc 작성 완료
+- [x] .cursor/rules/project-rules.mdc 작성 완료
 
-- [ ] docs/AI_TA_RULES.md 작성 완료
+- [x] docs/AI_TA_RULES.md 작성 완료
 
-- [ ] docs/PROMPTS.md 바이브코딩 규칙 3개 이상 작성
+- [x] docs/PROMPTS.md 바이브코딩 규칙 3개 이상 작성
 
-- [ ] docs/CHECKLIST.md 작성 완료
+- [x] docs/CHECKLIST.md 작성 완료
 
-- [ ] docs/EVAL_QUESTIONS.md 작성 완료
+- [x] docs/EVAL_QUESTIONS.md 작성 완료
 
-- [ ] docs/PROJECT_PLAN.md 작성 완료
+- [x] docs/PROJECT_PLAN.md 작성 완료
 
-- [ ] GitHub Repository 생성 및 초기 커밋 완료
+- [x] GitHub Repository 생성 및 초기 커밋 완료
 
-- [ ] 피어그룹 멤버 이름·GitHub URL 기록 완료
+- [x] 피어그룹 멤버 이름·GitHub URL 기록 완료
 
 ## 2일차
 
-- [ ] Python 가상환경(venv) 생성 및 활성화 확인
+- [x] Python 가상환경(venv) 생성 및 활성화 확인
 
-- [ ] requirements.txt 생성 및 패키지 설치 완료
+- [x] requirements.txt 생성 및 패키지 설치 완료
 
-- [ ] .env 파일 생성 및 GEMINI_API_KEY 입력 완료
+- [x] .env 파일 생성 및 GEMINI_API_KEY 입력 완료
 
-- [ ] FastAPI /health 실행 확인 (localhost:8000/health)
+- [x] FastAPI /health 실행 확인 (localhost:8000/health)
 
-- [ ] FastAPI /docs 접속 확인 (localhost:8000/docs)
+- [x] FastAPI /docs 접속 확인 (localhost:8000/docs)
 
-- [ ] /jobs API 목업 응답 확인
+- [x] /jobs API 목업 응답 확인
 
-- [ ] /analyze API 기본 구조 작성 완료
+- [x] /analyze API 기본 구조 작성 완료
 
-- [ ] Gemini API 최초 응답 확인
+- [x] Gemini API 최초 응답 확인
 
-- [ ] README.md 골격 작성 완료
+- [x] README.md 골격 작성 완료
 
-- [ ] GitHub 커밋 완료 (.env 미포함 확인)
+- [x] GitHub 커밋 완료 (.env 미포함 확인)
 
 
 
 ## 3일차
 
-- [ ] 강사 제공 CSV 데이터 확인 완료
+- [x] 강사 제공 CSV 데이터 확인 완료
 
 - [ ] Pandas로 CSV 읽기 성공
 
