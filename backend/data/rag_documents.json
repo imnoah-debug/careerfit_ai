@@ -12,7 +12,7 @@
       "is_startup": "false",
       "first_saved_date": "2026-07-06"
     },
-    "doc_id": "job_"
+    "doc_id": "job_1"
   },
   {
     "text": "대한인사이트랩에서 BI 데이터 분석가를 채용합니다. 필수 스킬은 SQL, Python, 통계분석입니다. 우대 스킬: Power BI, ETL. 업무 내용: KPI 분석 및 대시보드 구축을 담당합니다.",
@@ -27,7 +27,7 @@
       "is_startup": "false",
       "first_saved_date": "2026-07-06"
     },
-    "doc_id": "job_"
+    "doc_id": "job_2"
   },
   {
     "text": "미래애널리틱스에서 제조 데이터 분석가를 채용합니다. 필수 스킬은 Python, SQL, 통계분석입니다. 우대 스킬: 머신러닝, 품질관리. 업무 내용: 제조 공정 데이터를 분석하여 품질 개선을 지원합니다.",
@@ -42,6 +42,6 @@
       "is_startup": "false",
       "first_saved_date": "2026-07-06"
     },
-    "doc_id": "job_"
+    "doc_id": "job_3"
   }
 ]

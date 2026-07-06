@@ -364,7 +364,7 @@ def convert_to_rag_documents(df: pd.DataFrame) -> list:
     print("\n=== RAG 문서 변환 ===")
     documents = []
 
-    for _, row in df.iterrows():
+    for idx, row in df.iterrows():
         # 자연어 문서 텍스트 생성
         doc_text = (
             f"{row.get('company', '')}에서 {row.get('title', '')}를 채용합니다. "
@@ -394,7 +394,7 @@ def convert_to_rag_documents(df: pd.DataFrame) -> list:
         documents.append({
             "text": doc_text,
             "metadata": metadata,
-            "doc_id": f"job_{row.get('id', '')}"  # ChromaDB의 고유 ID
+            "doc_id": f"job_{idx + 1}" # ChromaDB의 고유 ID
         })
 
     print(f"   ✅ {len(documents)}개 문서 변환 완료")
