@@ -5,7 +5,7 @@
 
 
 # Python 실행 중 생기는 임시 파일들
-
+pycache/
 __pycache__/
 
 *.pyc
@@ -18,10 +18,11 @@ venv/
 
 
 
+
 # ChromaDB가 자동으로 만드는 폴더 (재생성 가능)
 
 backend/chroma_db/
-
+backend/.env
 
 
 # 데이터베이스 파일

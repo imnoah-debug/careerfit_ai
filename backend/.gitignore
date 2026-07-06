@@ -3,3 +3,6 @@ venv/
 __pycache__/
 *.pyc
 data/careerfit.db
+backend/chroma_db/
+backend/.env
+pycache/
