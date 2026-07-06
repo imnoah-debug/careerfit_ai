@@ -63,7 +63,13 @@
 
 
 
-- [ ] 4일차: RAG 기반 서비스 + React UI
+- [x] 4일차: RAG 기반 서비스 + React UI
+
+* RAG 검색 결과를 활용하는 AI 응답 파이프라인을 React 프론트엔드와 연동
+* `/analyze` API를 통해 사용자 입력(전공, 보유 스킬, 관심 직무)을 분석하고 결과 및 출처를 화면에 출력
+* `InputForm`, `ResultCard`, `SourceCard` 컴포넌트를 구현하고 Tailwind CSS 기반 UI 개선
+* VS Code - Continue + Gemini AI Studio를 연동하여 AI 개발 환경(Harness) 구축 및 `design-skill.md` 작성
+* 프로젝트 구조를 정리하고 프론트엔드와 백엔드 통합 테스트 완료
 
 
 
