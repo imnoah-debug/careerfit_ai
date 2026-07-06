@@ -12,6 +12,7 @@ import json
 
 import os
 
+from datetime import date
 
 
 # ─── 1. 파일 경로 설정 
@@ -386,7 +387,8 @@ def convert_to_rag_documents(df: pd.DataFrame) -> list:
             "source": "jobs.csv",
             "deadline_month": deadline_month,
             "is_startup": is_startup,
-            "first_saved_date": "2026-07-06"
+            "first_saved_date": date.today().isoformat()  
+        
         }
 
         documents.append({
