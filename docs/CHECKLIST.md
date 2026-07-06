@@ -71,6 +71,7 @@
 - [x] GitHub 커밋 완료
 
 
+python data/preprocess.py
 
 ## 4일차
 
