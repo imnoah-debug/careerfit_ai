@@ -165,7 +165,7 @@ careerfit_ai/
 * Cursor AI 규칙, 프롬프트, 체크리스트 등 프로젝트 문서를 작성하여 개발 가이드를 정리
 * 프로젝트 계획 수립 및 팀 협업 준비를 완료
 
----
+<br>
 
 ### ✅ 2일차 : FastAPI 서버 구축 및 Gemini API 연결
 
@@ -175,7 +175,7 @@ careerfit_ai/
 * `MOCK_MODE` 환경변수를 설정해 API 한도 초과 상황에서도 테스트 가능하도록 구성
 * 2일차 기준 백엔드 핵심 기능과 LLM 연동 실습을 완료
 
----
+<br>
 
 ### ✅ 3일차 : 데이터 파이프라인 구축
 
@@ -185,7 +185,7 @@ careerfit_ai/
 * 전처리된 데이터를 SQLite 데이터베이스에 저장하고 SQL 조회를 통해 저장 결과를 검증
 * AI가 활용하기 위한 데이터 전처리 및 저장 파이프라인 구축 완료
 
----
+<br>
 
 ### ✅ 4일차: RAG 기반 서비스 + React UI
 
@@ -195,7 +195,7 @@ careerfit_ai/
 * VS Code - Continue + Gemini AI Studio를 연동하여 AI 개발 환경(Harness) 구축 및 `design-skill.md` 작성
 * 프로젝트 구조를 정리하고 프론트엔드와 백엔드 통합 테스트 완료
 
----
+<br>
 
 ### ✅ 5일차: Docker + 포트폴리오 완성
 
