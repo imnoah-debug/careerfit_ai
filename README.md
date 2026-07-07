@@ -220,7 +220,7 @@ careerfit_ai/
 
 ## Developer
 
-- Name: Speed_loaf
+- Name: Im_Noah
 
 - Role: Backend / AI Service Development
 
