@@ -148,23 +148,7 @@ careerfit_ai/
 
 <br>
 
-## 🔮 향후 개선
-
-- [ ] 프론트엔드(Render) 배포 및 백엔드와 완전한 클라우드 연동
-
-- [ ] 이력서 PDF 업로드 후 AI 기반 역량 분석 및 맞춤형 직무 추천
-
-<br>
-
-## 📝 개발 과정
-
-[RAG와 Docker 환경을 처음 구축하면서 ChromaDB, FastAPI, React 연동 과정에서 다양한 오류를 경험했다. Docker 컨테이너 실행 오류와 Render 배포 과정의 문제를 해결하며 로컬 개발 환경과 클라우드 배포 환경의 차이를 이해하고 서비스 배포 경험을 쌓았다.]
-
-<br>
-
-
-## ✅  진행 현황
-
+## 🛠️ 개발 과정
 
 ### ✅ 1일차 : 프로젝트 기획 및 개발 환경 세팅
 
@@ -198,11 +182,11 @@ careerfit_ai/
 
 ### ✅ 4일차: RAG 기반 서비스 + React UI
 
-* RAG 검색 결과를 활용하는 AI 응답 파이프라인을 React 프론트엔드와 연동
-* `/analyze` API를 통해 사용자 입력(전공, 보유 스킬, 관심 직무)을 분석하고 결과 및 출처를 화면에 출력
-* `InputForm`, `ResultCard`, `SourceCard` 컴포넌트를 구현하고 Tailwind CSS 기반 UI 개선
-* VS Code - Continue + Gemini AI Studio를 연동하여 AI 개발 환경(Harness) 구축 및 `design-skill.md` 작성
-* 프로젝트 구조를 정리하고 프론트엔드와 백엔드 통합 테스트 완료
+* React 기반 프론트엔드 화면을 구축하고 FastAPI 백엔드와 연동
+* `/analyze` API를 통해 사용자 입력을 AI가 분석하고 결과 및 출처를 화면에 출력
+* `InputForm`, `ResultCard`, `SourceCard` 컴포넌트를 구현하고 Tailwind CSS 기반 UI 적용
+* Continue + Gemini AI Studio를 연동하여 AI 바이브 코딩 환경 구축
+* 프론트엔드와 백엔드를 통합하여 AI 추천 서비스 동작 확인
 
 <br>
 
@@ -215,6 +199,14 @@ careerfit_ai/
 * Docker와 Render를 활용한 서비스 배포 및 운영 환경 구축 완료
 
 
+
+<br>
+
+## 🔮 향후 개선
+
+- [ ] 프론트엔드(Render) 배포 및 백엔드와 완전한 클라우드 연동
+
+- [ ] 이력서 PDF 업로드 후 AI 기반 역량 분석 및 맞춤형 직무 추천
 
 <br>
 
