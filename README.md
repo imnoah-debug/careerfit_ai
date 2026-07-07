@@ -4,11 +4,11 @@
 
 ## 📌 프로젝트 개요
 
+### 문제 정의
+취업 준비생은 채용 공고에서 요구하는 역량을 파악하고 자신의 역량과 비교하는 데 많은 시간이 소요된다. 또한 단순 AI 답변은 실제 채용 공고를 근거로 하지 않아 신뢰성이 떨어질 수 있다.
 
-
-[문제 정의 — 취업 준비생은 채용 공고에서 요구하는 역량을 파악하고 자신의 역량과 비교하는 데 많은 시간이 소요됩니다. 또한 단순 AI 답변은 실제 채용 공고를 근거로 하지 않아 신뢰성이 떨어질 수 있다.]
-
-[해결 방법 — CareerFit AI는 RAG(Retrieval-Augmented Generation) 구조를 활용하여 채용 공고 데이터를 검색한 뒤, Gemini AI가 이를 기반으로 맞춤형 역량 분석과 학습 방향을 제안하는 서비스이다.]
+### 해결 방법 
+CareerFit AI는 RAG(Retrieval-Augmented Generation) 구조를 활용하여 채용 공고 데이터를 검색한 뒤, Gemini AI가 이를 기반으로 맞춤형 역량을 분석하는 서비스이다.
 
 
 
@@ -16,17 +16,11 @@
 ## 🛠 기술 스택
 
 | 영역 | 기술 |
-
 |---|---|
-
 | 백엔드 | Python 3.11, FastAPI |
-
 | AI API | Gemini 2.5 Flash-Lite |
-
 | 데이터 | Pandas, SQLite, ChromaDB |
-
 | 프론트엔드 | React, Vite |
-
 | 실행 환경 | Docker |
 
 
@@ -148,7 +142,6 @@ careerfit_ai/
 
 [RAG와 Docker 환경을 처음 구축하면서 ChromaDB, FastAPI, React 연동 과정에서 다양한 오류를 경험했다. Docker 컨테이너 실행 오류와 Render 배포 과정의 문제를 해결하며 로컬 개발 환경과 클라우드 배포 환경의 차이를 이해하고 서비스 배포 경험을 쌓았다.]
 
-```
 
 ---
 
