@@ -37,6 +37,7 @@ E --> F[CSV]
 ```
 
 <br>
+
 ## 🚀 실행 방법
 
 ### Docker로 실행 (권장)
@@ -151,27 +152,9 @@ careerfit_ai/
 [RAG와 Docker 환경을 처음 구축하면서 ChromaDB, FastAPI, React 연동 과정에서 다양한 오류를 경험했다. Docker 컨테이너 실행 오류와 Render 배포 과정의 문제를 해결하며 로컬 개발 환경과 클라우드 배포 환경의 차이를 이해하고 서비스 배포 경험을 쌓았다.]
 
 <br>
----
-
-## Demo
-
-- Live Demo: https://careerfit-ai-tdjx.onrender.com
-
----
-
-## Developer
-
-- Name: Speed_loaf
-
-- Role: Backend / AI Service Development
-
-- GitHub: https://github.com/imnoah-debug
 
 
-
-
----
-## 진행 현황
+## ✅  진행 현황
 
 
 ### ✅ 1일차 : 프로젝트 기획 및 개발 환경 세팅
@@ -221,3 +204,23 @@ careerfit_ai/
 * Render Web Service를 이용하여 Docker 기반 FastAPI 서버를 클라우드에 배포
 * 환경변수(.env)를 활용하여 Gemini API Key를 안전하게 관리하고 GitHub 노출을 방지
 * Docker와 Render를 활용한 서비스 배포 및 운영 환경 구축 완료
+
+
+
+<br>
+
+---
+
+## Demo
+
+- Live Demo: https://careerfit-ai-tdjx.onrender.com
+
+---
+
+## Developer
+
+- Name: Speed_loaf
+
+- Role: Backend / AI Service Development
+
+- GitHub: https://github.com/imnoah-debug
