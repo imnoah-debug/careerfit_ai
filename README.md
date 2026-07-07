@@ -65,6 +65,8 @@ docker run -p 8000:8000 --env-file backend/.env careerfit-ai
 
 API 문서: http://localhost:8000/docs
 
+<br>
+
 ### 로컬 실행
 
 ```bash
