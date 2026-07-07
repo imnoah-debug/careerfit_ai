@@ -62,11 +62,11 @@
 
 - [x] SQLite 조회 확인
 
-- [ ] RAG 문서 구조로 변환 완료
+- [x] RAG 문서 구조로 변환 완료
 
-- [ ] ChromaDB 컬렉션 생성 및 문서 저장 확인
+- [x] ChromaDB 컬렉션 생성 및 문서 저장 확인
 
-- [ ] metadata 설계 완료
+- [x] metadata 설계 완료
 
 - [x] GitHub 커밋 완료
 
@@ -75,40 +75,40 @@ python data/preprocess.py
 
 ## 4일차
 
-- [ ] ChromaDB 질문 기반 검색 확인
+- [x] ChromaDB 질문 기반 검색 확인
 
-- [ ] 검색 결과 품질 점검 완료
+- [x] 검색 결과 품질 점검 완료
 
-- [ ] /analyze API RAG 응답으로 변경 완료
+- [x] /analyze API RAG 응답으로 변경 완료
 
-- [ ] React 프로젝트 생성 및 실행 확인 (localhost:5173)
+- [x] React 프로젝트 생성 및 실행 확인 (localhost:5173)
 
-- [ ] /analyze API 연결 완료
+- [x] /analyze API 연결 완료
 
-- [ ] 결과 카드 화면 출력 확인
+- [x] 결과 카드 화면 출력 확인
 
-- [ ] 출처 카드 화면 출력 확인
+- [x] 출처 카드 화면 출력 확인
 
-- [ ] 로컬 통합 테스트 완료
+- [x] 로컬 통합 테스트 완료
 
-- [ ] GitHub 커밋 완료
+- [x] GitHub 커밋 완료
 
 
 
 ## 5일차
 
-- [ ] Dockerfile 작성 완료
+- [x] Dockerfile 작성 완료
 
-- [ ] Docker build 성공
+- [x] Docker build 성공
 
-- [ ] Docker run 후 /health 접속 확인
+- [x] Docker run 후 /health 접속 확인
 
-- [ ] README 최종화 완료 (문제정의·데이터·구현·검증 4단계)
+- [x] README 최종화 완료 (문제정의·데이터·구현·검증 4단계)
 
-- [ ] .env 미포함 보안 확인
+- [x] .env 미포함 보안 확인
 
-- [ ] 최종 하네스 파일 업데이트 완료
+- [x] 최종 하네스 파일 업데이트 완료
 
-- [ ] GitHub 최종 커밋 완료
+- [x] GitHub 최종 커밋 완료
 
 - [ ] 팀 리플렉션 발표 준비 완료
