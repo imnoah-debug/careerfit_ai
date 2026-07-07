@@ -11,7 +11,8 @@
 CareerFit AI는 RAG(Retrieval-Augmented Generation) 구조를 활용하여 채용 공고 데이터를 검색한 뒤, Gemini AI가 이를 기반으로 맞춤형 역량을 분석하는 서비스이다.
 
 
-
+---
+<br>
 
 ## 🛠 기술 스택
 
